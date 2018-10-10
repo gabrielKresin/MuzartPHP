@@ -1,0 +1,1501 @@
+/*Login Login Login Login Login Login Login Login Login Login Login Login Login Login Login*/
+body {
+	width: 100%;
+	background-color: #f0f0f0;
+	color: #535353;
+}
+
+.paginacaoCSS {
+	margin: 10px auto;
+	padding-right: 5px;
+	padding-top: 3px;
+	text-align: center;
+	height: 30px;
+	border: solid 2px #c1c1c1;
+	box-shadow: 0.5px 0.5px 5px #c1c1c1;
+	border-radius: 10px;
+	background-color: #ffffff;
+}
+
+.colortop {
+	background-color: #F7C81F;
+}
+
+.tudoIndex {
+	width: 100%;
+	height: 400px;
+	margin: 0px auto;
+	margin-top: 12%;
+}
+
+.dadosFormulario {
+	width: 100%;
+	height: 100px;
+	padding-left: 10%;
+	margin-top: 12%;
+}
+
+.divLogoLogin {
+	width: 80%;
+	margin-top: 18%;
+	margin-left: 35%;
+}
+
+#divTotalLogin {
+	width: 40%;
+	height: 200px;
+	margin-left: 27.5%;
+}
+
+.loginLogin {
+	width: 100%;
+	min-width: 300px;
+	height: 32px;
+	text-align: center;
+}
+
+.senhaLogin {
+	width: 100%;
+	min-width: 300px;
+	height: 32px;
+	margin-top: 12px;
+	text-align: center;
+}
+
+.divFormularioBotoes {
+	float: left;
+	width: 100%;
+	padding-left: 10%;
+	margin-top: 2px;
+}
+
+#botaoLogarLogin {
+	width: 33.33333333333333333333333%;
+	float: right;
+	margin-right: 10px;
+	text-align: center;
+	font-size: 11.5px;
+	padding-left: 2%;
+}
+
+#botaoCadastrarLogin {
+	width: 33.33333333333333333333333%;
+	float: left;
+	margin-left: 10px;
+	text-align: center;
+	font-size: 11.5px;
+	padding-left: 2%;
+}
+
+#labelOULogin {
+	width: 3.33333333333333333333333%;
+	float: right;
+	margin-right: 12.5%;
+	font-size: 22px;
+	color: #2c2827;
+}
+
+.form-controlEstilo {
+	padding: 0.6em 1.2em;
+	color: #555;
+	font-size: 12px;
+	background-color: #fff;
+	border: 1px solid #513608;
+	border-radius: 20px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+	-webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow
+		ease-in-out .15s;
+	-o-transition: border-color ease-in-out .15s, box-shadow ease-in-out
+		.15s;
+	transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.form-controlEstilo:focus {
+	border-color: #F7D21F;
+	outline: 0;
+	-webkit-box-shadow: inset 0 1px 1px rgba(240, 239, 167, .075), 0 0 9px
+		rgba(247, 231, 40, .8);
+	box-shadow: inset 0 1px 1px rgba(240, 239, 167, .075), 0 0 9px
+		rgba(247, 231, 40, .8);
+}
+
+.form-controlEstilo:hover {
+	border-color: #F7D21F;
+	outline: 0;
+	-webkit-box-shadow: inset 0 1px 1px rgba(240, 239, 167, .075), 0 0 9px
+		rgba(247, 231, 40, .8);
+	box-shadow: inset 0 1px 1px rgba(240, 239, 167, .075), 0 0 9px
+		rgba(247, 231, 40, .8);
+}
+
+.dadosFormulario {
+	margin-top: 15%;
+}
+
+/*Perfil Perfil Perfil Perfil Perfil Perfil Perfil Perfil Perfil Perfil Perfil Perfil Perfil*/
+#bodyPerfil {
+	background-color: #FFF;
+}
+
+.Usuario h1 {
+	position: relative;
+	text-align: center;
+	top: 200px;
+	font-size: 20px;
+}
+
+.ImagemPerfil {
+	margin-left: 442px;
+}
+
+.FormularioCompartilhar {
+	width: 450px;
+	margin: 55px auto;
+}
+
+.FormularioCompartilhar input {
+	margin-bottom: 10px;
+}
+
+.botao {
+	float: right;
+	color: #420300;
+}
+
+.botao:active {
+	color: #420300;
+}
+
+#mensagemLogin {
+	width: 200px;
+	height: 80px;
+	left: 10px;
+	float: right;
+	margin-top: 370px;
+	margin-right: 100px;
+	text-align: center;
+}
+
+.boxShadowbtn:active {
+	-webkit-box-shadow: inset 0 3px 5px rgba(100, 100, 100, 1);
+	box-shadow: inset 0 3px 5px rgba(100, 100, 100, 1);
+}
+
+.deixaEssaPorraPreta {
+	color: #420300;
+}
+
+@font-face {
+	font-family: Lobster;
+	src: url('../Include/font/Lobster-Regular.ttf');
+}
+
+/*  TOPO    TOPO    TOPO    TOPO    TOPO    TOPO    TOPO    TOPO    TOPO    TOPO    TOPO    TOPO    TOPO    TOPO    TOPO    TOPO    TOPO    TOPO    TOPO    TOPO*/
+header {
+	overflow: auto;
+	background-color: #F7C81F;
+}
+
+header h1 {
+	color: #420300;
+	margin: 10px;
+	margin-left: 50px;
+	font-size: 20px
+}
+
+#Pesquisar {
+	float: left;
+	width: 220px;
+	height: 34px;
+	margin-left: 2px;
+	margin-top: -2px;
+}
+
+.barraPesquisa {
+	border: 1px solid #F7C81F;
+	border-radius: 4px;
+	padding-right: 33px;
+	border-radius: 10px;
+}
+
+#tituloTopo {
+	float: left;
+	color: black;
+	margin-left: 15px;
+	margin-top: 10px;
+	font-size: 25px;
+}
+
+.btnOpcoes {
+	float: right;
+	margin-right: 4px;
+	margin-top: 3px;
+	border-radius: 100px;
+	width: 45px;
+	height: 45px;
+}
+
+.btnLupa {
+	height: 36px;
+	float: left;
+	border-radius: 30px;
+	margin-left: -36px;
+	margin-top: -2px;
+}
+
+.btnBarras {
+	width: 12px;
+	height: 30px;
+	float: left;
+	margin-left: 30px;
+	margin-top: 2px;
+}
+
+#topo {
+	width: 100%;
+	height: 55px;
+	font-family: Lobster;
+}
+
+#borda {
+	width: 340px;
+	height: 50px;
+	margin-top: 5px;
+	padding-top: 10px;
+	float: left;
+}
+
+.conteudoTopo {
+	width: 850px;
+	margin-left: 30px;
+	float: left;
+}
+
+#perfil {
+	margin-left: -20px;
+	height: 40px;
+	width: 55px;
+	padding-top: 10px;
+	padding-left: 12px;
+	float: left;
+	margin-top: 8px;
+}
+
+#perfil:hover {
+	background-color: #FFE461;
+	height: 40px;
+	border-radius: 15px;
+}
+
+#amigos {
+	margin-left: 30px;
+	padding-top: 10px;
+	padding-left: 10px;
+	height: 40px;
+	width: 65px;
+	float: left;
+	margin-top: 8px;
+}
+
+#amigos:hover {
+	background-color: #FFE461;
+	height: 40px;
+	border-radius: 15px;
+}
+
+#obras {
+	margin-left: 30px;
+	padding-top: 10px;
+	padding-left: 10px;
+	height: 40px;
+	width: 54px;
+	float: left;
+	margin-top: 8px;
+}
+
+#obras:hover {
+	background-color: #FFE461;
+	height: 40px;
+	border-radius: 15px;
+}
+
+#freelancer {
+	height: 40px;
+	width: 77px;
+	margin-left: 30px;
+	padding-top: 10px;
+	padding-left: 10px;
+	float: left;
+	margin-top: 8px;
+}
+
+#freelancer:hover {
+	background-color: #FFE461;
+	height: 40px;
+	border-radius: 15px;
+}
+
+#repertorio {
+	width: 80px;
+	height: 40px;
+	margin-left: 30px;
+	padding-top: 10px;
+	padding-left: 10px;
+	float: left;
+	margin-top: 8px;
+}
+
+#repertorio:hover {
+	background-color: #FFE461;
+	height: 40px;
+	border-radius: 15px;
+}
+
+.form-Topo {
+	width: 200px;
+	height: 35px;
+	margin-top: 20px;
+	border: solid 2px #c1c1c1;
+	box-shadow: 0.2px 0.2px 1px #c1c1c1;
+	background-color: #ffffff;
+	border-radius: 10px;
+}
+
+.botaoTopo {
+	width: 100px;
+	height: 35px;
+	margin-top: 20px;
+	margin-left: 77px;
+	border-radius: 8px;
+	border: solid 1px;
+	border-color: #F7C81F;
+	background-color: #F7C81F;
+}
+
+/*   Página meuPerfil       Página meuPerfil       Página meuPerfil       Página meuPerfil       Página meuPerfil       Página meuPerfil*/
+.dadosMeuPerfil {
+	width: 550px;
+	height: 170px;
+	margin-top: 50px;
+	margin-left: 3.125%;
+	border: solid 2px #c1c1c1;
+	box-shadow: 0.5px 0.5px 5px #c1c1c1;
+	border-radius: 26px;
+	background-color: #ffffff;
+}
+
+.imagemPerfil {
+	width: 166px;
+	height: 166px;
+	border-radius: 25px;
+	float: left;
+}
+
+.imagemMedalha {
+	width: 60px;
+	height: 60px;
+	margin-right: 20px;
+	margin-top: 60px;
+	float: right;
+	border-radius: 45px;
+	padding-top: 8px;
+	padding-left: 6.25px;
+	background-color: #F7C81F;
+	box-shadow: 0.5px 0.5px 5px #c1c1c1;
+}
+
+.imagemMedalha:hover {
+	border: 4px solid #daa520;
+	padding-left: 2px;
+}
+
+.informacoesMeuPerfil {
+	width: 250px;
+	float: left;
+}
+
+.nomePerfil {
+	width: 200px;
+	height: 32px;
+	margin-left: 15px;
+	margin-top: 50px;
+	margin-right: 20px;
+	text-align: center;
+	padding-top: 4px;
+	background-color: #f1f1f1;
+	border-radius: 45px;
+	float: left;
+}
+
+.nomePerfil:hover {
+	background-color: #f0f0e0;
+}
+
+.instrumentoPerfil {
+	width: 125px;
+	height: 32px;
+	margin-top: 25px;
+	margin-left: 15px;
+	height: 30px;
+	padding-top: 4px;
+	text-align: center;
+	border-radius: 45px;
+	background-color: #f1f1f1;
+	float: left;
+}
+
+.instrumentoPerfil:hover {
+	background-color: #f0f0e0;
+}
+
+.ufPerfil {
+	width: 50px;
+	height: 32px;
+	margin-left: 25px;
+	margin-top: 25px;
+	text-align: center;
+	padding-top: 4px;
+	border-radius: 45px;
+	background-color: #f1f1f1;
+	float: left;
+}
+
+.ufPerfil:hover {
+	background-color: #f0f0e0;
+}
+
+.enviarInformacoesMeuPerfil {
+	width: 330px;
+	height: 170px;
+	background-color: #F7C846;
+	float: right;
+	margin-top: -170px;
+	margin-right: 60px;
+	border: solid 2px;
+	border-radius: 48px;
+	border: solid 2px #F7BD1F;
+	box-shadow: 1px 1px 10px #F7BD1F;
+}
+
+.caixaTextoMeuPerfil {
+	width: 250px;
+	height: 135px;
+	margin-left: 35px;
+	margin-top: 15px;
+	background-color: #FFE461;
+	resize: none;
+	font-size: 13px;
+	padding: 6px;
+	border-radius: 7.5px;
+	border-color: #F7BD1F;
+	background-color: #FFE461;
+}
+
+.caixaTextoMeuPerfil:hover {
+	border: 1px solid #F7C81F;
+}
+
+.caixaTextoMeuPerfil:focus {
+	border: 2px solid #F7C81F;
+}
+
+.enviarInformacoesMeuPerfil {
+	margin-left: 30px;
+}
+
+.botaoEnviarmeuPerfil {
+	width: 24px;
+	height: 24px;
+	margin-left: 250px;
+	margin-top: -38px;
+	background-color: #420300;
+}
+
+.botaouploadmeuPerfil {
+	width: 24px;
+	height: 24px;
+	margin-left: 220px;
+	margin-top: -24px;
+	background-color: #420300;
+}
+
+/* Cadastrar Cadastrar Cadastrar Cadastrar Cadastrar Cadastrar Cadastrar Cadastrar Cadastrar */
+.posicaoCadastrarUm {
+	margin: 10px auto;
+	width: 200px;
+	color: #999999;
+}
+
+.divTdnaoTotalCadastrar {
+	width: 100%;
+	margin-left: 2%;
+}
+
+.divInstrumentosCadastrar {
+	margin: 10px auto;
+	width: 235px;
+	height: 90px;
+	border-color: #449d44;
+	border: solid 1px;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+.checkboxInstumentosUm {
+	float: left;
+}
+
+.textoInstrumentosCadastrarUm {
+	color: black;
+	float: left;
+}
+
+.checkboxInstumentosDois {
+	float: left;
+}
+
+.textoInstrumentosCadastrarDois {
+	color: black;
+	float: left;
+}
+
+.checkboxInstumentosTres {
+	float: left;
+}
+
+.textoInstrumentosCadastrarTres {
+	color: black;
+	float: left;
+}
+
+.violaoTamanho {
+	width: 45px;
+}
+
+.pianoTamanho {
+	width: 45px;
+}
+
+.vocalTamanho {
+	width: 45px;
+}
+
+.tecladoTamanho {
+	width: 55px;
+}
+
+.bateriaTamanho {
+	width: 55px;
+}
+
+.flautaTamanho {
+	width: 55px;
+}
+
+.divInstrumentosCadastrarUm {
+	width: 200px;
+	height: 10px;
+	background-color: black;
+}
+
+.divInstrumentosCadastrarDois {
+	width: 200px;
+	height: 10px;
+	background-color: black;
+}
+
+.divInstrumentosCadastrarTres {
+	width: 200px;
+	height: 10px;
+	background-color: black;
+}
+
+.btnConfirmarCadastrar {
+	width: 95px;
+	margin: 0px auto;
+}
+
+.msgErroCadastrar {
+	width: 260px;
+	margin: 0px auto;
+}
+
+.posicaoCadastrarDois {
+	width: 200px;
+	margin: 10px auto;
+	color: #999999;
+}
+
+#divTotalnaoTotalCadastrar {
+	width: 250px;
+	margin: 0px auto;
+	margin-top: 3%;
+}
+
+.selecioneInstumentoCadastrar {
+	width: 250px;
+	height: 20px;
+	margin-left: 5px;
+	margin-top: 8px;
+	color: #420300;
+}
+
+#espacoEmBranco {
+	height: 16px;
+}
+
+/*  Página Busca    Página Busca    Página Busca    Página Busca    Página Busca    Página Busca*/
+#PaginaResultadoBusca {
+	margin-top: 60px;
+	margin-bottom: 30px;
+}
+
+.tabela {
+	width: 450px;
+	height: 120px;
+	margin: 30px auto;
+	font-size: 13px;;
+	border: solid 2px #c1c1c1;
+	box-shadow: 0.5px 0.5px 5px #c1c1c1;
+	border-radius: 26px;
+	background-color: #ffffff;
+}
+
+.tabela2 {
+	width: 450px;
+	height: 150px;
+	margin: 30px auto;
+	font-size: 13px;
+	border: solid 2px #c1c1c1;
+	box-shadow: 0.5px 0.5px 5px #c1c1c1;
+	border-radius: 26px;
+	background-color: #ffffff;
+}
+
+.dadosBusca {
+	width: 200px;
+	height: 120px;
+	float: left;
+	padding-top: 5px;
+}
+
+.dadosBusca2 {
+	width: 200px;
+	height: 150px;
+	float: left;
+	padding-top: 5px;
+}
+
+.imagemBusca {
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin-top: 25px;
+	margin-left: 20px;
+	margin-right: 10px;
+}
+
+.imagemBusca2 {
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin-top: 40px;
+	margin-left: 20px;
+	margin-right: 10px;
+}
+
+.nomeBusca {
+	width: 200px;
+	height: 30px;
+	margin-top: 5px;
+	padding-top: 10px;
+}
+
+.nomeBusca2 {
+	width: 200px;
+	height: 30px;
+	margin-top: 15px;
+	padding-top: 5px;
+}
+
+.instrumentoBusca {
+	width: 200px;
+	height: 30px;
+	padding-top: 8px;
+}
+
+.instrumentoBusca2 {
+	width: 200px;
+	height: 30px;
+	padding-top: 8px;
+}
+
+.municipiosBusca {
+	width: 200px;
+	height: 30px;
+	padding-top: 5px;
+}
+
+.municipiosBusca2 {
+	width: 200px;
+	height: 30px;
+	padding-top: 10px;
+}
+
+.medalhaBusca {
+	width: 65px;
+	height: 65px;
+	border-radius: 15px;
+	background-color: #F7C81F;
+	float: left;
+	padding-left: 7.5px;
+	padding-top: 7.5px;
+	margin-left: 30px;
+	margin-top: 25px;
+}
+
+.medalhaBusca2 {
+	width: 65px;
+	height: 65px;
+	border-radius: 15px;
+	background-color: #F7C81F;
+	float: left;
+	padding-left: 7.5px;
+	padding-top: 7.5px;
+	margin-left: 30px;
+	margin-top: 40px;
+}
+
+/*Alterar Perfil / Alterar Perfil / Alterar Perfil / Alterar Perfil / Alterar Perfil / Alterar Perfil / Alterar Perfil / Alterar Perfil / Alterar Perfil*/
+.alterarPerfilTotal {
+	width: 900px;
+	height: 400px;
+	float: left;
+	margin-left: 62px;
+	border: solid 2px #c1c1c1;
+	box-shadow: 0.5px 0.5px 5px #c1c1c1;
+	border-radius: 26px;
+	background-color: #ffffff;
+}
+
+.alterarPerfilDadosPessoais {
+	width: 680px;
+	height: 100px;
+	text-align: center;
+	margin: 35px auto;
+	padding-top: 8px;
+	border-radius: 20px;
+	background-color: #FFE461;
+}
+
+.alterarPerfilLeft {
+	width: 300px;
+	height: 150px;
+	float: left;
+	margin-top: -15px;
+	margin-left: 110px;
+	padding-left: 20px;
+	padding-top: 20px;
+	border-radius: 20px;
+	background-color: #FFE461;
+}
+
+.alterarPerfilRight {
+	width: 300px;
+	height: 150px;
+	float: right;
+	margin-top: -15px;
+	margin-right: 110px;
+	padding-left: 20px;
+	padding-top: 20px;
+	border-radius: 20px;
+	background-color: #FFE461;
+}
+
+.formataLabelAlteraEmailPerfil:hover, .formataLabelEstadoAlteraPerfil:hover,
+	.formataLabelInstrumentoAlteraPerfil:hover,
+	.formataLabelNomeAlteraPerfil:hover, .formataLabelCidadeAlteraPerfil:hover,
+	.formataLabelDataNascimentoAlteraPerfil:hover {
+	color: #F7BD1F;
+}
+
+.formataLabelAlteraEmailPerfil, .formataLabelEstadoAlteraPerfil,
+	.formataLabelInstrumentoAlteraPerfil, .formataLabelNomeAlteraPerfil,
+	.formataLabelCidadeAlteraPerfil,
+	.formataLabelDataNascimentoAlteraPerfil {
+	color: #F7BD1F;
+	margin-top: 10px;
+}
+
+.floatleftAlterarPerfil {
+	float: left;
+	margin-top: -58px;
+	margin-left: 25px;
+	transform: rotateY(180deg);
+}
+
+.floatrightAlterarPerfil {
+	float: right;
+	margin-top: 12px;
+	margin-right: 25px;
+}
+
+.dadosPessoaisH1 {
+	width: 300px;
+	margin: 0px auto;
+	text-align: center;
+}
+
+/*Perfil - Perfil - Perfil - Perfil - Perfil - Perfil - Perfil - Perfil - Perfil - Perfil - Perfil - Perfil - Perfil - Perfil - Perfil - Perfil - Perfil*/
+.addPerfil {
+	width: 30px;
+	height: 30px;
+	margin-top: -36px;
+	margin-left: 200px;
+	float: left;
+}
+
+/*  solicitacoesDeAmizade   solicitacoesDeAmizade  solicitacoesDeAmizade  solicitacoesDeAmizade  solicitacoesDeAmizade  solicitacoesDeAmizade  solicitacoesDeAmizade*/
+.tabelaSolicitoes {
+	width: 550px;
+	height: 120px;
+	margin: 30px auto;
+	border-radius: 25px;
+	font-size: 13px;
+	padding-top: 7.5px;
+	border: solid 2px #c1c1c1;
+	box-shadow: 0.5px 0.5px 5px #c1c1c1;
+	border-radius: 26px;
+	background-color: #ffffff;
+}
+
+.tabelaSolicitoes2 {
+	width: 550px;
+	height: 150px;
+	margin: 30px auto;
+	border-radius: 25px;
+	font-size: 13px;
+	padding-top: 7.5px;
+	border: solid 2px #c1c1c1;
+	box-shadow: 0.5px 0.5px 5px #c1c1c1;
+	border-radius: 26px;
+	background-color: #ffffff;
+}
+
+.imagemBuscaSolicitoes {
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin-top: 15px;
+	margin-left: 22px;
+	margin-right: 10px;
+}
+
+.imagemBuscaSolicitoes2 {
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin-top: 27.5px;
+	margin-left: 22px;
+	margin-right: 10px;
+}
+
+.divDadosSolicitoes {
+	float: left;
+}
+
+.divDadosSolicitoes2 {
+	float: left;
+	margin-top: 7px;
+}
+
+.nomeBuscaSolicitoes {
+	width: 200px;
+	height: 30px;
+	margin-top: 5px;
+	padding-top: 5px;
+}
+
+.instrumentoBuscaSolicitoes {
+	width: 200px;
+	height: 30px;
+	padding-top: 5px;
+}
+
+.municipiosBuscaSolicitoes {
+	width: 200px;
+	height: 30px;
+	padding-top: 5px;
+}
+
+.medalhaBuscaSolicitoes {
+	width: 65px;
+	height: 65px;
+	border-radius: 15px;
+	background-color: #F7C81F;
+	float: left;
+	padding-left: 7.5px;
+	padding-top: 7.5px;
+	margin-left: 30px;
+	margin-top: 15px;
+}
+
+.medalhaBuscaSolicitoes2 {
+	width: 65px;
+	height: 65px;
+	border-radius: 15px;
+	background-color: #F7C81F;
+	float: left;
+	padding-left: 7.5px;
+	padding-top: 7.5px;
+	margin-left: 30px;
+	margin-top: 29px;
+}
+
+.tudoTabelaBuscaSolicitoes {
+	width: 450px;
+	height: 100px;
+	float: left;
+	margin-top: 30px;
+}
+
+.BotaoXCheck {
+	padding-top: 18px;
+	margin-top: 15px;
+	padding-left: 10px;
+	width: 90px;
+	height: 65px;
+	background-color: #F7C81F;
+	border-radius: 15px;
+	float: left;
+}
+
+.BotaoXCheck2 {
+	width: 90px;
+	height: 65px;
+	padding-top: 18px;
+	margin-top: 29px;
+	margin-left: 9px;
+	padding-left: 10px;
+	background-color: #F7C81F;
+	border-radius: 15px;
+	float: left;
+}
+
+.divBotaoX {
+	padding-top: 18px;
+	margin-top: 15px;
+	padding-left: 17.5px;
+	margin-right: 20px;
+	width: 65px;
+	height: 65px;
+	background-color: #F7C81F;
+	border-radius: 15px;
+}
+
+.divBotaoX2 {
+	width: 65px;
+	height: 65px;
+	padding-top: 18px;
+	margin-top: 29px;
+	padding-left: 17.5px;
+	margin-right: 20px;
+	background-color: #F7C81F;
+	border-radius: 15px;
+}
+
+.botaoRejeitarSolicitoes {
+	float: right;
+	width: 40px;
+	height: 40px;
+}
+
+.botaoRejeitarAmizade {
+	float: right;
+	width: 40px;
+	height: 40px;
+}
+
+.botaoAceitarSolicitoes {
+	float: left;
+	width: 40px;
+	height: 40px;
+}
+
+.divImgSolicitoes {
+	float: right;
+	margin-right: 20px;
+	padding-bottom: 20px;
+}
+
+/* Conversa   Conversa Conversa Conversa Conversa Conversa Conversa Conversa Conversa Conversa Conversa Conversa*/
+@media ( min-width :1024px) {
+	.enviarConversa {
+		position: absolute;
+		margin-left: 160px;
+		margin-top: 18px;
+		height: 30px;
+		float: left;
+	}
+	.campoTextoConversa {
+		width: 190px;
+		height: 58px;
+		float: left;
+		border-radius: 4px;
+		border: 1px solid black;
+	}
+	.barraChatConversa {
+		width: 100%;
+		height: 37px;
+		margin-top: 368px;
+		padding-left: 5px;
+		padding-top: 5px;
+		border-top: 1px solid black;
+	}
+}
+
+@media ( min-width :1280px) {
+	.enviarConversa {
+		position: absolute;
+		margin-left: 160px;
+		margin-top: 18px;
+		height: 30px;
+		float: left;
+	}
+	.campoTextoConversa {
+		width: 190px;
+		height: 58px;
+		float: left;
+		border-radius: 4px;
+		border: 1px solid black;
+	}
+	.barraChatConversa {
+		width: 100%;
+		height: 37px;
+		margin-top: 328px;
+		padding-left: 5px;
+		padding-top: 5px;
+		border-top: 1px solid black;
+	}
+}
+
+@media ( min-width :1600px) {
+	.enviarConversa {
+		position: absolute;
+		margin-left: 160px;
+		margin-top: 18px;
+		height: 30px;
+		float: left;
+	}
+	.campoTextoConversa {
+		width: 190px;
+		height: 58px;
+		float: left;
+		border-radius: 4px;
+		border: 1px solid black;
+	}
+	.barraChatConversa {
+		width: 100%;
+		height: 37px;
+		margin-top: 368px;
+		padding-left: 5px;
+		padding-top: 5px;
+		border-top: 1px solid black;
+	}
+}
+
+/*03/09/2018 03/09/2018 03/09/2018 03/09/2018 03/09/2018 03/09/2018 03/09/2018 03/09/2018 MODAL AMIGOS*/
+.tabelaModalAmigos {
+	width: 238px;
+	height: 40px;
+	color: #000;
+	padding-top: 7px;
+}
+
+.tabelaModalAmigos:hover {
+	background-color: lightgray;
+}
+
+/*Freelancer Freelancer Freelancer Freelancer Freelancer Freelancer Freelancer Freelancer Freelancer Freelancer Freelancer Freelancer Freelancer Freelancer*/
+.dadosFree {
+	margin-top: 20px;
+	margin-left: 30px;
+	width: 520px;
+	height: 235px;
+	border: solid 2px #c1c1c1;
+	box-shadow: 0.5px 0.5px 5px #c1c1c1;
+	border-radius: 26px;
+	background-color: #ffffff;
+}
+
+.videoFree {
+	width: 166px;
+	height: 166px;
+	border-radius: 25px;
+	float: left;
+}
+
+.imagemMedalhaFree {
+	width: 60px;
+	height: 60px;
+	margin-top: 30px;
+	margin-right: 20px;
+	float: right;
+	border-radius: 45px;
+	padding-top: 8px;
+	padding-left: 6.25px;
+	background-color: #F7C81F;
+	box-shadow: 0.5px 0.5px 5px #c1c1c1;
+}
+
+.imagemMedalhaFree:hover {
+	border: 4px solid #daa520;
+	padding-left: 2.25px;
+}
+
+.cidadeFree {
+	width: 300px;
+	height: 32px;
+	margin-left: 182px;
+	margin-top: 130px;
+	margin-right: 20px;
+	text-align: center;
+	padding-top: 4px;
+	background-color: #f1f1f1;
+	border-radius: 45px;
+}
+
+.cidadeFree:hover {
+	background-color: #f0f0e0;
+}
+
+.nomeFree {
+	width: 200px;
+	height: 32px;
+	margin-left: 15px;
+	margin-top: 15px;
+	margin-right: 20px;
+	text-align: center;
+	padding-top: 4px;
+	background-color: #f1f1f1;
+	border-radius: 45px;
+	float: left;
+}
+
+.nomeFree:hover {
+	background-color: #f0f0e0;
+}
+
+.instrumentoFree {
+	width: 125px;
+	height: 32px;
+	margin-top: 25px;
+	margin-left: 15px;
+	height: 30px;
+	float: left;
+	padding-top: 4px;
+	text-align: center;
+	border-radius: 45px;
+	background-color: #f1f1f1;
+}
+
+.instrumentoFree:hover {
+	background-color: #f0f0e0;
+}
+
+.ufFree {
+	width: 50px;
+	height: 32px;
+	margin-top: 25px;
+	margin-left: 25px;
+	float: left;
+	text-align: center;
+	padding-top: 4px;
+	border-radius: 45px;
+	background-color: #f1f1f1;
+}
+
+.ufFree:hover {
+	background-color: #f0f0e0;
+}
+
+.VLD {
+	margin-top: 25px;
+	width: 500px;
+	height: 35px;
+	margin-left: 8px;
+}
+
+.visualizacoes {
+	width: 150px;
+	height: 32px;
+	margin-left: 10px;
+	float: left;
+	text-align: center;
+	padding-top: 4px;
+	border-radius: 45px;
+	background-color: #F7C81F;
+}
+
+.likes {
+	width: 120px;
+	height: 32px;
+	margin-left: 10px;
+	float: left;
+	text-align: center;
+	padding-top: 4px;
+	border-radius: 45px;
+	background-color: #FFE461;
+}
+
+.deslikes {
+	width: 120px;
+	height: 32px;
+	margin-left: 10px;
+	float: left;
+	text-align: center;
+	padding-top: 4px;
+	border-radius: 45px;
+	background-color: #FFE461;
+}
+
+#videoApresentacaoFreelancer {
+	width: 520px;
+	height: 330px;
+	border: solid 1px #c1c1c1;
+	box-shadow: 0.5px 0.5px 5px #c1c1c1;
+	border-radius: 18px;
+	background-color: #ffffff;
+	padding-top: 14px;
+	margin-top: 10px;
+	margin-left: 3.125%;
+	float: left;
+}
+
+.freelancerCadastrarEstiloMusical{
+
+    margin-left: 55%;
+    margin-top: -35%;
+    width: 15%;
+    display: inline;
+    float: left;
+}
+
+.freelacerCadastrarInstrumento{
+
+    float: left;
+    display: inline;
+    width: 15%;
+    margin-left: 75%;
+    margin-top: -35%;
+
+}
+
+.tabelaFreelancerEstilo{
+    
+    margin-left: 55%;
+    margin-top: -25%;
+    width: 10%;
+    display: inline;
+    float: left;
+    overflow: scroll;
+    max-height: 300px;
+        
+}
+
+.tabelaFreelancerInstrumento{
+    
+    margin-left: 75%;
+    margin-top: -25%;
+    display: inline;
+    float: left;
+    overflow: scroll;
+    max-height: 300px;
+    
+}
+
+
+
+
+
+
+/*   Perfil   Perfil   Perfil   Perfil   Perfil   Perfil   Perfil   Perfil*/
+.BotoesPerfil {
+	width: 280px;
+	margin-top: 20px;
+	margin-left: 12.5px;
+	height: 32px;
+	float: left;
+}
+
+.likesPerfil {
+	width: 125px;
+	height: 32px;
+	margin-left: 20px;
+	float: left;
+	text-align: center;
+	padding-top: 4px;
+	border-radius: 45px;
+	background-color: green;
+}
+
+.deslikesPerfil {
+	width: 125px;
+	height: 32px;
+	margin-left: 10px;
+	float: left;
+	text-align: center;
+	padding-top: 4px;
+	border-radius: 45px;
+	background-color: red;
+}
+
+.cidadePerfil {
+	width: 260px;
+	height: 32px;
+	margin-left: 20px;
+	text-align: center;
+	background-color: #f1f1f1;
+	border-radius: 16px;
+	padding-top: 5px;
+	margin-top: 40px;
+	float: left;
+}
+
+.cidadePerfil:hover {
+	background-color: #f0f0e0;
+}
+
+.descricaoLabelPerfil {
+	width: 100%;
+	height: 32px;
+	margin-top: 35px;
+	float: left;
+	text-align: center;
+}
+
+.descricaoPerfil {
+	width: 260px;
+	height: 300px;
+	background-color: #f1f1f1;
+	float: left;
+	margin-left: 20px;
+	border-radius: 20px;
+}
+
+.informacoesExtrasPerfil {
+	width: 300px;
+	height: 525px;
+	margin-top: -160px;
+	margin-right: 60px;
+	border: solid 1px #c1c1c1;
+	box-shadow: 0.5px 0.5px 5px #c1c1c1;
+	border-radius: 26px;
+	background-color: #ffffff;
+	float: right;
+}
+
+.TabelavideoApresentacao {
+	width: 550px;
+	height: 360px;
+	border: solid 1px #c1c1c1;
+	box-shadow: 0.5px 0.5px 5px #c1c1c1;
+	border-radius: 26px;
+	background-color: #ffffff;
+	padding-top: 20px;
+	margin-top: 15px;
+	margin-left: 3.125%;
+	float: left;
+}
+
+.videoApresentacao {
+	width: 550px;
+	height: 315px;
+}
+
+.tudoPosts {
+	padding-top: 80px;
+	float: left;
+}
+
+.tabelaVideos {
+	width: 500px;
+	height: 410px;
+	border: solid 2px #c1c1c1;
+	box-shadow: 0.5px 0.5px 5px #c1c1c1;
+	border-radius: 26px;
+	background-color: #ffffff;
+	padding-top: 25px;
+	margin-left: 200px;
+	margin-bottom: 30px;
+}
+
+.mensagemPerfil {
+	width: 450px;
+	height: 40px;
+	margin-left: 25px;
+	border-radius: 20px;
+	text-align: center;
+	padding-top: 8px;
+	background-color: #f1f1f1;
+}
+
+.video {
+	margin-top: 20px;
+	margin-left: 7.5px;
+}
+
+/* freelancerCadastrar.jsp freelancerCadastrar.jsp freelancerCadastrar.jsp freelancerCadastrar.jsp freelancerCadastrar.jsp freelancerCadastrar.jsp */
+.tamanhoTextAreaFreelancerCadastrar {
+	display: block;
+	margin-left: 25px;
+	width: 200px;
+	height: 300px;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #513608;
+	border-radius: 16px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+	-webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow
+		ease-in-out .15s;
+	-o-transition: border-color ease-in-out .15s, box-shadow ease-in-out
+		.15s;
+	transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+	resize: none;
+}
+
+/*    Video    Video    Video    Video    Video    Video    Video    Video    Video    Video    Video    Video    Video    Video    Video    Video*/
+.tabelavideoReproduzir {
+	margin-left: 232px;
+	margin-top: 40px;
+}
+
+/*   Denuncia     Denuncia   Denuncia   Denuncia   Denuncia   Denuncia   Denuncia   Denuncia   Denuncia   Denuncia   Denuncia   Denuncia*/
+.tabelaDenuncia {
+	width: 700px;
+	height: 380px;
+	margin: 20px auto;
+	padding-top: 30px;
+	padding-left: 30px;
+	border: solid 2px #c1c1c1;
+	box-shadow: 0.5px 0.5px 5px #c1c1c1;
+	border-radius: 26px;
+	background-color: #ffffff;
+}
+
+.VideoDenuncia {
+	float: left;
+	margin-right: 10px;
+}
+
+.DadosDenuncia {
+	float: left;
+	width: 155px;
+	height: 300px;
+}
